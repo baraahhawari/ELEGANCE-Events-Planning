@@ -1,0 +1,254 @@
+/*screen max width 1366px*/
+@font-face{
+	font-family:DancingScript-Regular;
+	src:url(../fonts/Dancing_Script/DancingScript-Regular.ttf);
+}
+@font-face{
+	font-family:Rancho-Regular;
+	src:url(../fonts/Rancho/Rancho-Regular.ttf);
+}
+@font-face{
+	font-family:Neucha-Regular;
+	src:url(../fonts/Neucha/Neucha-Regular.ttf);
+}
+
+body{
+	font-family:Rancho-Regular;
+	margin: 0 auto;
+}
+/* Start of the header */
+nav{
+	display: flex;
+	justify-content: space-evenly;
+	font-family:DancingScript-Regular;
+}
+
+#logo img{
+	width: 300px;
+	height: 100px;
+	float: left;
+	padding: 50px;
+}
+nav img{
+	width: 25px;
+	height: 25px;
+	padding-top: 50px;
+}
+
+#logo img{
+	width: 300px;
+	height: 100px;
+	float: left;
+	padding: 10px 50px;
+}
+a{
+	text-decoration: none;
+	color:#7a3c78;
+}
+.a{
+	float: right;
+	padding: 50px;
+	padding-top: 50px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.a:hover{
+	transform: skewX(-10deg);
+}
+/*End of the header*/
+
+/*Start of the slider*/
+.slider div{ 
+	height: 500px;
+	background-image: url('../images/wedding08.jpg');
+	background-size: 100% 100%;
+	opacity: 0.9;
+}
+
+/*end of the slider*/
+
+/*start of 1st section*/
+
+h1, #para{
+	font-family: DancingScript-Regular;
+	width: 1000px;
+	color: #fff;
+	word-spacing: 10px;
+}
+
+#para{
+  	font-size: 25px;
+}
+
+span{
+	font-family:DancingScript-Regular;
+	color: #7a3c78;
+	padding: 10px;
+	font-size: 30px; 
+}
+.service{
+	font-family:Neucha-Regular;
+	word-spacing: 10px;
+	width: 1000px;
+	height: 600px;
+	background-color:#D8CCC7 ;
+	text-align: center;
+	padding:20px;
+	position: absolute;
+	transform: translate(15%,-10%);
+	opacity: 0.9;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+h1{
+	font-size:50px;
+	color: #7a3c78;
+}
+
+.para{
+	  	font-size: 20px;
+	  	font-weight: bolder;
+}
+
+/*end of 1st section*/
+
+/*start of 2nd section*/
+.section2{
+	margin-top: 50%;
+	margin-left:50px;
+	font-family:Neucha-Regular;
+	font-size: 10px;
+	word-spacing: 5px;
+}
+.images img{
+	width: 300px;
+	height: 400px;
+	margin:0;
+	animation: bebo 4s ease-in-out infinite ;
+}
+
+@keyframes bebo {
+  0%   {transform: scale(1);}
+  100% {transform: scale(.9);}
+}
+.images{
+	padding:0 35px;
+}
+img:hover{
+	opacity: 0.9;
+}
+.word{
+	width: 94%;
+	padding: 40px;
+	font-size: 20px;
+	text-align: justify;
+}
+/*end of 2nd section*/
+
+/*start of 3rd section*/
+.section3{
+	margin:3% 10% ;
+	padding:10px 10px 60px 10px;
+	background-color:#EEEEEE;
+	border-radius: 50px;
+	box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+h4{
+	text-align: center;
+	font-size: 30px;
+}
+
+.left{
+	float: left;
+}
+
+.left, .right{
+	font-family:Neucha-Regular;
+	background-image: url('../images/ii.png');
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+  	width: 450px;
+  	border-radius: 10px;
+  	box-shadow: 0 23px 23px 7px rgba(0, 0, 0, 0.04);
+  	background-color: #ffffff;
+  	overflow: hidden;
+  	font-size: 20px;
+  	padding: 20px;
+  	margin-left: 20px;
+  	margin-right: 30px;
+}
+  
+.left:hover{
+    transform: scale(1.05);
+    transition: all 200ms ease-out;
+  }
+.right:hover{
+	transform: scale(1.05);
+    transition: all 200ms ease-out;
+}
+/*end of 2nd section*/
+
+
+/*start of the footer*/
+#log img{
+	width: 150px;
+	height: 100px;
+}
+
+.footerleft, .footermiddle{
+	font-size: 20px;
+	border-right:1px solid #7a3c78;
+	margin:20px;
+	padding:20px;
+	width: 350px;
+	text-align: center;
+	height: 200px;
+	font-weight: bolder;
+}
+
+.footerleft{
+	float: left;
+}
+
+li{
+	list-style: none;
+	font-size: 20px;
+	margin:20px;
+	font-weight: bolder;
+}
+
+.footermiddle{
+	float: left;
+	text-align: center;
+}
+
+.footerright{
+	font-size: 20px;
+	margin:20px;
+	padding:20px;
+	width: 350px;
+	text-align: center;
+	float: left;
+}
+
+.footerright img{
+	width: 30px;
+	height: 30px;
+	padding: 20px;
+}
+#footer{
+	clear: both;
+	background-color:#7a3c78;
+	color: #fff;
+	text-align: center; 
+	padding: 10px;
+}
+
+#base{
+	color: #fff;
+	text-align: center;
+}
+
+/*End of the footer*/
