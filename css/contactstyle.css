@@ -16,50 +16,48 @@ body{
 	font-family:Rancho-Regular;
 	margin: 0 auto;
 }
-/* Start of the header */
+
+.container{
+	width: 1349px;
+}
+
 nav{
 	display: flex;
 	justify-content: space-evenly;
 	font-family:DancingScript-Regular;
 }
 
-#logo img{
-	width: 300px;
-	height: 100px;
-	float: left;
-	padding: 50px;
-}
-a{
-	text-decoration: none;
-	color:#7a3c78;
-}
 nav img{
 	width: 25px;
 	height: 25px;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 #logo img{
 	width: 300px;
-	height: 100px;
+	height: 60px;
 	float: left;
-	padding: 10px 50px;
+	padding: 20px 20px;
 }
+
 a{
 	text-decoration: none;
 	color:#7a3c78;
 }
+
 .a{
 	float: right;
-	padding: 50px;
-	padding-top: 50px;
+	padding: 30px;
+	padding-top: 40px;
 	font-size: 20px;
 	font-weight: bolder;
 }
+
 .a:hover{
 	transform: skewX(-10deg);
 }
 /*End of the header*/
+
 
 /*statt of the information*/
 
@@ -91,7 +89,7 @@ span{
 	float: right;
 	margin-right: 3%;
 	border-radius: 10px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 .ima:hover img{
 	scale:2px;
@@ -103,7 +101,7 @@ span{
 	font-size: 20px;
 	text-align: center;
 	margin: 50px;
-	margin-top: 50px;
+	margin-top: 10px;
 	background-color: #F7E9E5;
 	transition: background 350ms 600ms ease-in-out;
 	border-radius: 20px;
