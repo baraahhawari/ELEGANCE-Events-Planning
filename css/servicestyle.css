@@ -16,46 +16,48 @@ body{
 	font-family:Rancho-Regular;
 	margin: 0 auto;
 }
-/* Start of the header */
+
+.container{
+	width: 1349px;
+}
+
 nav{
 	display: flex;
 	justify-content: space-evenly;
 	font-family:DancingScript-Regular;
 }
 
-#logo img{
-	width: 300px;
-	height: 100px;
-	float: left;
-	padding: 50px;
-}
 nav img{
 	width: 25px;
 	height: 25px;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 #logo img{
 	width: 300px;
-	height: 100px;
+	height: 60px;
 	float: left;
-	padding: 10px 50px;
+	padding: 20px 20px;
 }
+
 a{
 	text-decoration: none;
 	color:#7a3c78;
 }
+
 .a{
 	float: right;
-	padding: 50px;
-	padding-top: 50px;
+	padding: 30px;
+	padding-top: 40px;
 	font-size: 20px;
 	font-weight: bolder;
 }
+
 .a:hover{
 	transform: skewX(-10deg);
 }
 /*End of the header*/
+
 
 /*Start of the slider*/
 .slider div{ 
@@ -148,7 +150,7 @@ img:hover{
 /*start of 3rd section*/
 .section3{
 	margin:3% 10% ;
-	padding:10px 10px 60px 10px;
+	padding-bottom: 30px;
 	background-color:#EEEEEE;
 	border-radius: 50px;
 	box-shadow: 10px 10px 5px #aaaaaa;
@@ -176,7 +178,7 @@ h4{
   	overflow: hidden;
   	font-size: 20px;
   	padding: 20px;
-  	margin-left: 20px;
+  	margin-left: 30px;
   	margin-right: 30px;
 }
   
