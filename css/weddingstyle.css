@@ -16,50 +16,49 @@ body{
 	font-family:Rancho-Regular;
 	margin: 0 auto;
 }
-/* Start of the header */
+
+.container{
+	width: 1349px;
+}
+
 nav{
 	display: flex;
 	justify-content: space-evenly;
 	font-family:DancingScript-Regular;
 }
 
-#logo img{
-	width: 300px;
-	height: 100px;
-	float: left;
-	padding: 50px;
-}
-a{
-	text-decoration: none;
-	color:#7a3c78;
-}
 nav img{
 	width: 25px;
 	height: 25px;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 #logo img{
 	width: 300px;
-	height: 100px;
+	height: 60px;
 	float: left;
-	padding: 10px 50px;
+	padding: 20px 20px;
 }
+
 a{
 	text-decoration: none;
 	color:#7a3c78;
 }
+
 .a{
 	float: right;
-	padding: 50px;
-	padding-top: 50px;
+	padding: 30px;
+	padding-top: 40px;
 	font-size: 20px;
 	font-weight: bolder;
 }
+
 .a:hover{
 	transform: skewX(-10deg);
 }
 /*End of the header*/
+
+
 /*Start of the slider*/
 .slider div{ 
 	height: 500px;
@@ -76,12 +75,12 @@ h1, #para{
 }
 
 h1{
-  	top: 80%;
+  	top: 50%;
   	font-size: 50px;
 }
 
 #para{
-  	top: 90%;
+  	top: 60%;
   	font-size: 30px;
 }	
 /*end of the slider*/
